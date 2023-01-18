@@ -131,5 +131,10 @@ punctuator:
 
 key_binder:
   import_preset: default
-  bindings:
-    - {accept: "Alt+space", select: td_pinyin_flypy_extra, when: always}
+
+ascii_composer:
+  good_old_caps_lock: true
+  switch_key:
+    Shift_L: noop
+    Shift_R: noop
+
